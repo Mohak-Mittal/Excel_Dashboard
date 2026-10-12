@@ -26,13 +26,13 @@ Every project follows the same pipeline: clean the data, summarise it with pivot
 
 ## 🔄 The Workflow
 
-```mermaid
-flowchart LR
-    A[🗑️ Raw Messy Data] --> B[🧹 Clean & Standardise]
-    B --> C[📐 Pivot Tables]
-    C --> D[📊 Dashboard + Slicers]
-    D --> E[💡 Insights & Caveats]
-```
+<div align="center">
+
+| 🗑️ **Raw Data** | ➜ | 🧹 **Clean** | ➜ | 📐 **Pivot Tables** | ➜ | 📊 **Dashboard** | ➜ | 💡 **Insights** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Messy, broken, real | | Standardise and fix | | Summarise | | Charts and slicers | | Findings and caveats |
+
+</div>
 
 ---
 
