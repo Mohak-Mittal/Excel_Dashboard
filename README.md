@@ -1,0 +1,147 @@
+<div align="center">
+
+# 📊 Excel Dashboard Projects
+
+### Messy data in. Clean insights out.
+
+**4 real-world datasets · 30 pivot tables · 18 interactive charts · 1 workflow**
+
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Projects](https://img.shields.io/badge/Projects-4-orange?style=for-the-badge)
+![Records](https://img.shields.io/badge/Records_Analysed-2,634-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+
+</div>
+
+---
+
+## 🚀 What's This Repo?
+
+Four Excel projects, four industries, one goal: **take a messy, broken dataset and turn it into a clean, interactive dashboard that actually tells you something.**
+
+Every project follows the same pipeline: clean the data, summarise it with pivot tables, then build a dashboard with charts and slicers. Each folder also has its own README explaining what was fixed, what the data shows, and what to be careful about.
+
+---
+
+## 🔄 The Workflow
+
+```mermaid
+flowchart LR
+    A[🗑️ Raw Messy Data] --> B[🧹 Clean & Standardise]
+    B --> C[📐 Pivot Tables]
+    C --> D[📊 Dashboard + Slicers]
+    D --> E[💡 Insights & Caveats]
+```
+
+---
+
+## 🗂️ The Projects
+
+| | Project | Industry | Dataset | Headline |
+|---|---|---|---|---|
+| ☕ | [**Café Sales**](Project_1/) | Food & Beverage | 1,600 transactions · 7 stores · 2024 | 311K net sales · ~51% margin |
+| 🚴 | [**Bike Sales**](Project_2/) | Retail | 89 records · 6 countries · Dec 2021 | 363.5K revenue · ~45% margin |
+| 🍽️ | [**Zomato Orders**](Project_3/) | Food Delivery | 445 orders · 10 cities · 2024 | ₹571.7K order value · ~6% margin |
+| 🏥 | [**Hospital Patients**](Project_4/) | Healthcare | 500 patients · 10 cities · 2025 | ₹91.95M total billing |
+
+---
+
+## 🔥 Highlights From Each Project
+
+<details>
+<summary><b>☕ Project 1 — Café Sales</b></summary>
+
+- June was the standout month (39.7K), far above every other month.
+- Coffee drives about **48%** of net sales.
+- Net sales include cancelled and pending orders; only 67% of orders were completed.
+
+</details>
+
+<details>
+<summary><b>🚴 Project 2 — Bike Sales</b></summary>
+
+- The **United States** leads with about 37% of revenue, then Australia at 31%.
+- Adults (35–64) generate about **57%** of revenue.
+- Best seller: Mountain-200 Black, size 46.
+
+</details>
+
+<details>
+<summary><b>🍽️ Project 3 — Zomato Orders</b></summary>
+
+- Mumbai is the top city; Subway makes the most profit.
+- Only **61%** of orders were actually delivered.
+- 22% of orders lost money, and the overall margin is a thin 6%.
+
+</details>
+
+<details>
+<summary><b>🏥 Project 4 — Hospital Patients</b></summary>
+
+- Hyderabad has the highest billing (₹10.7M); Oncology is the biggest department.
+- Only **22%** of patients have fully paid.
+- Messy city names (`Bombay`, `Calcutta`, `Bengaluru`) are flagged in the README.
+
+</details>
+
+---
+
+## 🧹 Data Problems I Had To Fight
+
+| Problem | Real example |
+|---|---|
+| 🔤 Inconsistent text | `Bangalore` / `Bengaluru`, `CC` / `Credit Card`, `DAMA` / `Discharged Against Medical Advice` |
+| 📅 Mixed date formats | `2025-05-11`, `05-18-2025`, `27/03/2025`, `11 Oct 2025` |
+| 🔢 Numbers stored as text | `₹51,199.60`, `39 mins`, `56 yrs` |
+| 🚫 Impossible values | Negative bills, ages of `999`, a `99,999,999` placeholder |
+| 🕳️ Missing data | Hundreds of blanks per dataset, handled with medians, modes or `Unknown` |
+| 🆔 Broken IDs | `PAT-135`, `ORD_117`, blanks, duplicates |
+
+---
+
+## 🛠️ Skills Showcased
+
+![Cleaning](https://img.shields.io/badge/Data_Cleaning-2ea44f?style=flat-square)
+![Formulas](https://img.shields.io/badge/Excel_Formulas-217346?style=flat-square)
+![Pivot](https://img.shields.io/badge/PivotTables-0078D4?style=flat-square)
+![Charts](https://img.shields.io/badge/PivotCharts-F2C811?style=flat-square&logoColor=black)
+![Slicers](https://img.shields.io/badge/Slicers_&_Dashboards-E34F26?style=flat-square)
+![Imputation](https://img.shields.io/badge/Missing_Value_Handling-8250DF?style=flat-square)
+![Storytelling](https://img.shields.io/badge/Data_Storytelling-FF6F61?style=flat-square)
+
+---
+
+## 📂 Repo Structure
+
+```
+Excel_Dashboard/
+├── 📁 Project_1/   ☕ Café sales
+├── 📁 Project_2/   🚴 Bike sales
+├── 📁 Project_3/   🍽️ Zomato orders
+├── 📁 Project_4/   🏥 Hospital patients
+└── 📄 README.md
+```
+
+Each project folder contains the Excel workbook, its own README, and an `images/` folder with a dashboard screenshot.
+
+---
+
+## ⚡ Quick Start
+
+1. Pick a project folder.
+2. Read its README for the dataset, cleaning steps, findings and caveats.
+3. Download the `.xlsx` file and open the dashboard sheet.
+4. Click the slicers to filter the charts and explore the data yourself.
+
+---
+
+## 👤 Author
+
+**Mohak Mittal** · [GitHub](https://github.com/Mohak-Mittal)
+
+<div align="center">
+
+⭐ If you found this useful, drop a star on the repo!
+
+</div>
