@@ -66,7 +66,7 @@ Original data was kept untouched on its own sheet. Cleaning was done on a separa
 
 > Charts below are generated from the `Cleaned Data` sheet and mirror the Excel dashboard. 
 
-![Location share](images/04_location_share.png)
+![Location share](Screenshot 2026-10-12 104427.png)
 
 ---
 
