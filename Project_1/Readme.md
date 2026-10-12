@@ -112,9 +112,5 @@ Original data was kept untouched on its own sheet. Cleaning was done on a separa
 ├── Data_1.xlsx
 ├── README.md
 └── images/
-    ├── 00_kpis.png
-    ├── 01_monthly_performance.png
-    ├── 02_category_performance.png
-    ├── 03_product_performance.png
-    └── 04_location_share.png
+    └── Screenshot.png
 ```
