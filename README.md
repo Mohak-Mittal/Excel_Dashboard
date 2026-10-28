@@ -26,6 +26,14 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 ## 🎞️ Dashboard Preview
 
+<div align="center">
+
+<img src="assets/dashboard-slideshow.gif" alt="Animated slideshow of all five project dashboards" width="100%">
+
+</div>
+
+<br>
+
 <table>
   <tr>
     <td align="center" width="20%">
@@ -81,7 +89,7 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 ## 🔥 Highlights From Each Project
 
-<details open>
+<details>
 <summary><b>☕ Project 1 — Café Sales</b></summary>
 
 <br>
@@ -94,7 +102,7 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details open>
+<details>
 <summary><b>🚴 Project 2 — Bike Sales</b></summary>
 
 <br>
@@ -107,7 +115,7 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details open>
+<details>
 <summary><b>🍽️ Project 3 — Zomato Orders</b></summary>
 
 <br>
@@ -120,7 +128,7 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details open>
+<details>
 <summary><b>🏥 Project 4 — Hospital Patients</b></summary>
 
 <br>
@@ -133,7 +141,7 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details open>
+<details>
 <summary><b>📣 Project 5 — Marketing Campaigns</b></summary>
 
 <br>
