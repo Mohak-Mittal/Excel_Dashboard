@@ -24,6 +24,37 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 ---
 
+## 🎞️ Dashboard Preview
+
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <a href="Project_1/"><img src="Project_1/images/Screenshot.png" alt="Café Sales dashboard" width="100%"></a>
+      <br><sub><b>☕ Café Sales</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="Project_2/"><img src="Project_2/images/Screenshot.png" alt="Bike Sales dashboard" width="100%"></a>
+      <br><sub><b>🚴 Bike Sales</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="Project_3/"><img src="Project_3/images/Screenshot.png" alt="Zomato Orders dashboard" width="100%"></a>
+      <br><sub><b>🍽️ Zomato Orders</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="Project_4/"><img src="Project_4/images/Screenshot.png" alt="Hospital Patients dashboard" width="100%"></a>
+      <br><sub><b>🏥 Hospital Patients</b></sub>
+    </td>
+    <td align="center" width="20%">
+      <a href="Project_5/"><img src="Project_5/images/Screenshot.png" alt="Marketing Campaigns dashboard" width="100%"></a>
+      <br><sub><b>📣 Marketing Campaigns</b></sub>
+    </td>
+  </tr>
+</table>
+
+<div align="center"><sub>Click any dashboard to open its project.</sub></div>
+
+---
+
 ## 🔄 The Workflow
 
 <div align="center">
@@ -50,8 +81,12 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 ## 🔥 Highlights From Each Project
 
-<details>
+<details open>
 <summary><b>☕ Project 1 — Café Sales</b></summary>
+
+<br>
+
+<a href="Project_1/"><img src="Project_1/images/Screenshot.png" alt="Café Sales dashboard" width="100%"></a>
 
 - June was the standout month (39.7K), far above every other month.
 - Coffee drives about **48%** of net sales.
@@ -59,8 +94,12 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details>
+<details open>
 <summary><b>🚴 Project 2 — Bike Sales</b></summary>
+
+<br>
+
+<a href="Project_2/"><img src="Project_2/images/Screenshot.png" alt="Bike Sales dashboard" width="100%"></a>
 
 - The **United States** leads with about 37% of revenue, then Australia at 31%.
 - Adults (35–64) generate about **57%** of revenue.
@@ -68,8 +107,12 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details>
+<details open>
 <summary><b>🍽️ Project 3 — Zomato Orders</b></summary>
+
+<br>
+
+<a href="Project_3/"><img src="Project_3/images/Screenshot.png" alt="Zomato Orders dashboard" width="100%"></a>
 
 - Mumbai is the top city; Subway makes the most profit.
 - Only **61%** of orders were actually delivered.
@@ -77,8 +120,12 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details>
+<details open>
 <summary><b>🏥 Project 4 — Hospital Patients</b></summary>
+
+<br>
+
+<a href="Project_4/"><img src="Project_4/images/Screenshot.png" alt="Hospital Patients dashboard" width="100%"></a>
 
 - Hyderabad has the highest billing (₹10.7M); Oncology is the biggest department.
 - Only **22%** of patients have fully paid.
@@ -86,8 +133,12 @@ Projects 1–4 start with messy, broken data that needs real cleaning. Project 5
 
 </details>
 
-<details>
+<details open>
 <summary><b>📣 Project 5 — Marketing Campaigns</b></summary>
+
+<br>
+
+<a href="Project_5/"><img src="Project_5/images/Screenshot.png" alt="Marketing Campaigns dashboard" width="100%"></a>
 
 - **SMS** brings in about **34% of revenue** from only 4.4% of spend (80x ROAS).
 - **Display** is the weakest channel (3.5x ROAS), while Paid Search takes the biggest budget share (47%).
