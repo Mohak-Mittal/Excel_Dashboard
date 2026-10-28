@@ -4,12 +4,12 @@
 
 ### Messy data in. Clean insights out.
 
-**4 real-world datasets · 30 pivot tables · 18 interactive charts · 1 workflow**
+**5 datasets · 34 pivot tables · 22 interactive charts · 1 workflow**
 
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Projects](https://img.shields.io/badge/Projects-4-orange?style=for-the-badge)
-![Records](https://img.shields.io/badge/Records_Analysed-2,634-blueviolet?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-5-orange?style=for-the-badge)
+![Records](https://img.shields.io/badge/Records_Analysed-52,634-blueviolet?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 </div>
@@ -18,9 +18,9 @@
 
 ## 🚀 What's This Repo?
 
-Four Excel projects, four industries, one goal: **take a messy, broken dataset and turn it into a clean, interactive dashboard that actually tells you something.**
+Five Excel projects, five industries, one goal: **take a raw dataset and turn it into a clean, interactive dashboard that actually tells you something.**
 
-Every project follows the same pipeline: clean the data, summarise it with pivot tables, then build a dashboard with charts and slicers. Each folder also has its own README explaining what was fixed, what the data shows, and what to be careful about.
+Projects 1–4 start with messy, broken data that needs real cleaning. Project 5 is a large, clean, modeled dataset, so it focuses on data validation, pivot analysis and dashboard storytelling. Every project follows the same pipeline: prepare the data, summarise it with pivot tables, then build a dashboard with charts and slicers. Each folder also has its own README explaining what was checked or fixed, what the data shows, and what to be careful about.
 
 ---
 
@@ -30,7 +30,7 @@ Every project follows the same pipeline: clean the data, summarise it with pivot
 
 | 🗑️ **Raw Data** | ➜ | 🧹 **Clean** | ➜ | 📐 **Pivot Tables** | ➜ | 📊 **Dashboard** | ➜ | 💡 **Insights** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Messy, broken, real | | Standardise and fix | | Summarise | | Charts and slicers | | Findings and caveats |
+| Messy, broken, raw | | Standardise, fix, validate | | Summarise | | Charts and slicers | | Findings and caveats |
 
 </div>
 
@@ -44,6 +44,7 @@ Every project follows the same pipeline: clean the data, summarise it with pivot
 | 🚴 | [**Bike Sales**](Project_2/) | Retail | 89 records · 6 countries · Dec 2021 | 363.5K revenue · ~45% margin |
 | 🍽️ | [**Zomato Orders**](Project_3/) | Food Delivery | 445 orders · 10 cities · 2024 | ₹571.7K order value · ~6% margin |
 | 🏥 | [**Hospital Patients**](Project_4/) | Healthcare | 500 patients · 10 cities · 2025 | ₹91.95M total billing |
+| 📣 | [**Marketing Campaigns**](Project_5/) | Marketing | 50,000 records · 6 channels · 2024–2026 (synthetic) | $158.8M revenue · 10.36x ROAS |
 
 ---
 
@@ -85,9 +86,20 @@ Every project follows the same pipeline: clean the data, summarise it with pivot
 
 </details>
 
+<details>
+<summary><b>📣 Project 5 — Marketing Campaigns</b></summary>
+
+- **SMS** brings in about **34% of revenue** from only 4.4% of spend (80x ROAS).
+- **Display** is the weakest channel (3.5x ROAS), while Paid Search takes the biggest budget share (47%).
+- Overall ROAS is **10.36x**, but the dataset is synthetic, so the results are best read as an analysis exercise.
+
+</details>
+
 ---
 
 ## 🧹 Data Problems I Had To Fight
+
+*(Projects 1–4. Project 5 passed all validation checks with no blanks or duplicates.)*
 
 | Problem | Real example |
 |---|---|
@@ -108,6 +120,7 @@ Every project follows the same pipeline: clean the data, summarise it with pivot
 ![Charts](https://img.shields.io/badge/PivotCharts-F2C811?style=flat-square&logoColor=black)
 ![Slicers](https://img.shields.io/badge/Slicers_&_Dashboards-E34F26?style=flat-square)
 ![Imputation](https://img.shields.io/badge/Missing_Value_Handling-8250DF?style=flat-square)
+![Marketing](https://img.shields.io/badge/Marketing_Metrics_CTR_ROAS-00A6A6?style=flat-square)
 ![Storytelling](https://img.shields.io/badge/Data_Storytelling-FF6F61?style=flat-square)
 
 ---
@@ -120,6 +133,7 @@ Excel_Dashboard/
 ├── 📁 Project_2/   🚴 Bike sales
 ├── 📁 Project_3/   🍽️ Zomato orders
 ├── 📁 Project_4/   🏥 Hospital patients
+├── 📁 Project_5/   📣 Marketing campaigns
 └── 📄 README.md
 ```
 
